@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 public class OpenBrowser {
-    private WebDriver driver;
+    WebDriver driver;
 
     @BeforeMethod
     public void setUp()
